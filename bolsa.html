@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bolsa</title>
+</head>
+<body>
+    <style>
+        #imagen-header {
+          display: flex;
+          width: 100%;
+          height:min-content;
+        } </style>
+    <header>
+      <img src="https://logodownload.org/wp-content/uploads/2021/07/dominos-pizza-logo.png" alt="Logo del restaurante" id="imagen-header">
+      <h2 id="title"> Bolsa de trabajo
+        <style>
+            #title {
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 80px;
+                text-align: center;
+                color: rgb(61, 15, 29);
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+        </style>
+      </h2>
+     
+    </header>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #e65858, #1622a2);
+            color: rgb(170, 170, 170);
+            font-size: medium;
+        }
+    </style>
+    <main>
+      <h2>Puestos disponibles</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Puesto</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cocinero/a</td>
+            <td>Responsable de la preparación de los alimentos</td>
+          </tr>
+          <tr>
+            <td>Camarero/a</td>
+            <td>Encargado/a de atender a los clientes</td>
+          </tr>
+          <tr>
+            <td>Repartidor/a</td>
+            <td>Entrega de pedidos a domicilio</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Envía tu CV</h2>
+      <form>
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="cv">Adjunta tu CV:</label>
+        <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+        <label for="carta">Adjunta tu carta de presentación:</label>
+        <input type="file" id="carta" name="carta" accept=".pdf,.doc,.docx" required>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer>
+      <p>Dirección: Calle 123, Ciudad XYZ</p>
+      <p>Teléfono: 555-145234</p>
+      <p>Correo electrónico: Dominos@restaurante.com</p>
+    </footer>
+  </body>
+</html>
